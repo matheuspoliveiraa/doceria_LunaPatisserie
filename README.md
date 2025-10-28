@@ -1,5 +1,7 @@
 ![GitHub License](https://img.shields.io/github/license/matheuspoliveiraa/doceria_LunaPatisserie)
 
+Author: Matheus Pinheiro de Oliveira
+
 # 🌙 Luna Patisserie
 
 Bem-vindo ao repositório oficial da **Luna Patisserie**, uma confeitaria artesanal que combina **sabor, arte e elegância** em cada doce.  
