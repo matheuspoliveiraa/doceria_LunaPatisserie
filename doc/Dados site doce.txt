@@ -17,7 +17,7 @@ Títulos: Lobster
 
 Parágrafos: Lato
 
-Fonte para imagens: Cormorant Garamond
+Fonte para imagens: Open Sans
 
 ****Imagens:****
 
