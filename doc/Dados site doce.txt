@@ -1,0 +1,34 @@
+****Palavras chaves:****
+
+- Doce
+- Confeitaria
+- Orgânico
+- Cupcake
+- Luna
+- Doceria
+- Bolo
+- Alimento
+- natural
+- Vegano
+
+****Fontes:****
+
+Títulos: Lobster
+
+Parágrafos: Lato
+
+Fonte para imagens: Cormorant Garamond
+
+****Imagens:****
+
+Estará na pasta de img da pasta doceria
+
+***Paleta de Cores***
+
+c2588c - rosa
+000000 - preto
+ffffff - branco
+af0848 - rosa escuro
+c2a362 - dourado
+b27c71 - rosa queimado
+ffdade - rosa clarinho
