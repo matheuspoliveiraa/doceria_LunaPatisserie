@@ -1,0 +1,152 @@
+/* Layout */
+
+/* Variáveis */
+
+:root {
+    --rosa: #c2588c;
+    --preto: #000000;
+    --branco: #ffffff;
+    --rosaescuro: #af0848;
+    --dourado: #c2a362;
+    --rosaqueimado: #b27c71;
+    --rosaclarinho: #ffdade;
+}
+
+/* CSS - reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lobster", sans-serif;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Fim do Layout*/
+
+
+/* Smartphone portrait */
+
+/* Cabeçalho */
+header {
+    height: 70px;
+    background-color: var(--rosaclarinho);
+}
+
+#logo img {
+    width: 128px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#check {
+    display: none;
+}
+
+label {
+    color: rgba(224, 8, 170, 0.75);
+    font-size: 2.5rem;
+    font-weight: 900;
+    position: fixed;
+    right: 15px;
+    top: 5px;
+}
+
+nav ul {
+    height: 100vh;
+    background-color: rgba(250, 130, 250, 0.8);
+    position: fixed;
+    top: 70px;
+    right: -65%;
+    width: 65%;
+    transition: all 0.5s;
+}
+
+/* Ação para caixa check box */
+
+#check:checked~ul {
+    right: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--rosaclarinho);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--rosaescuro);
+}
+/* Fim smartphone portrait*/
+
+/* Smarthphone landscape */
+@media (min-width: 576px) {
+
+    /* Layout */
+    .container {
+        max-width: 540px;
+    }
+
+     /* Cabeçalho */
+    nav ul {
+        width: 40%;
+        right: -40%;
+}
+}
+/* Fim - Smartphone landscape */
+
+/* Tablet portrait */
+@media (min-width: 768px) {
+
+    /* Layout */
+    .container {
+        max-width: 720px;
+    }
+
+    /* Cabeçalho */
+    nav ul {
+        width: 40%;
+        right: -40%;
+    }
+}
+/* Fim - Tablet portrait */
+
+/* Tablet landscape */
+@media (min-width: 992px) {
+
+    /* Layout */
+    .container {
+        max-width: 960px;
+    }
+}
+/* Fim - Tablet landscape */
+
+/* Notebook / PC */
+@media (min-width: 1200px) {
+
+    /* Layout */
+    .container {
+        max-width: 1140px;
+    }
+}
+/* Fim - Notebook / PC */
+
+/* FullHD / 4K */
+@media (min-width: 1400px) {
+
+    /* Layout */
+    .container {
+        max-width: 1140px;
+    }
+}
+/* Fim - FullHD / 4K */
