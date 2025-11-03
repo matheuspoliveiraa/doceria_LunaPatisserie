@@ -35,7 +35,7 @@ Matheus Pinheiro de Oliveira
 ---
 
 ## Acessar o site
-![](./img/qrcode.png)
+####![](./img/qrcode.png)
  
 
 
