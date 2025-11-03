@@ -137,6 +137,44 @@ nav ul li a {
     /* Layout */
     .container {
         max-width: 1140px;
+        justify-content: space-between;
+    }
+
+    /* Cabeçalho */
+    header {
+        height: 100px;
+    }
+
+    #logo img {
+        width: 194px;
+        height: 194px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 21px;
+    }
+
+    nav ul li {
+        border: 0;
+        float: left;
+        
+    }
+
+    ul li a {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    nav ul li a:hover {
+        color: var(--dourado)
     }
 }
 /* Fim - Notebook / PC */
