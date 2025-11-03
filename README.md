@@ -1,4 +1,5 @@
 ![GitHub License](https://img.shields.io/github/license/matheuspoliveiraa/doceria_LunaPatisserie)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fmatheuspoliveiraa.github.io%2Fdoceria_LunaPatisserie%2F)
 
 # 🌙 Luna Patisserie
 
