@@ -31,6 +31,11 @@ Aqui, o visitante poderá conhecer nossa história, conferir os produtos, e se a
 ---
 ## Author:
 Matheus Pinheiro de Oliveira
+
+---
+
+## Acessar o site
+![](./img/qrcode.png)
  
 
 
