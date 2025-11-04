@@ -29,6 +29,18 @@ body {
     margin: 0 auto;
 }
 
+.btn {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: var(--rosaclarinho);
+    padding: 10px 40px;
+    color: var(--rosaescuro);
+    border-radius: 30px;
+    border: 2px solid var(--rosa);
+
+}
+
 /* Fim do Layout*/
 
 
@@ -87,6 +99,38 @@ nav ul li a {
     text-decoration: none;
     color: var(--rosaescuro);
 }
+
+/* Principal */
+
+main {
+    height: 60vh;
+    background: url(./img/banner.jpg);
+    background-size: cover;
+
+}
+
+main .container {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: var(--rosaescuro);
+    font-family: "Oleo Script", system-ui;
+    text-shadow: 0px 5px 10px var(--rosaqueimado), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+main h2 {
+    color: var(--rosaclarinho);
+    text-shadow: 0px 5px 10px var(--rosaescuro), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+    font-family: "Lobster", sans-serif;
+    margin-bottom: 35px;
+}
+
 /* Fim smartphone portrait*/
 
 /* Smarthphone landscape */
@@ -97,12 +141,26 @@ nav ul li a {
         max-width: 540px;
     }
 
-     /* Cabeçalho */
+    /* Cabeçalho */
     nav ul {
         width: 40%;
         right: -40%;
+    }
+
+    /* Principal */
+    main {
+        height: 75vh;
+    }
+
+    main h1 {
+        font-size: 2.1rem;
+    }
+
+    main h2 {
+        font-size: 1.9rem;
+    }
 }
-}
+
 /* Fim - Smartphone landscape */
 
 /* Tablet portrait */
@@ -118,7 +176,18 @@ nav ul li a {
         width: 40%;
         right: -40%;
     }
+
+    /* Principal */
+    main h1 {
+        font-size: 3.1rem;
+    }
+
+    main h2 {
+        font-size: 2.9rem;
+    }
+
 }
+
 /* Fim - Tablet portrait */
 
 /* Tablet landscape */
@@ -129,6 +198,7 @@ nav ul li a {
         max-width: 960px;
     }
 }
+
 /* Fim - Tablet landscape */
 
 /* Notebook / PC */
@@ -165,7 +235,7 @@ nav ul li a {
     nav ul li {
         border: 0;
         float: left;
-        
+
     }
 
     ul li a {
@@ -176,7 +246,28 @@ nav ul li a {
     nav ul li a:hover {
         color: var(--dourado)
     }
+
+    /* Principal */
+
+    main {
+        height: 85vh;
+    }
+
+    main h1 {
+        font-size: 4.5rem;
+    }
+
+    main h2 {
+        font-size: 4rem;
+    }
+
+    .btn {
+        padding: 20px 40px;
+        font-size: 2.5rem;
+        border-radius: 50px;
+    }
 }
+
 /* Fim - Notebook / PC */
 
 /* FullHD / 4K */
@@ -186,5 +277,17 @@ nav ul li a {
     .container {
         max-width: 1140px;
     }
+
+    /* Principal */
+
+    main h1 {
+        font-size: 5rem;
+    }
+
+    main h2 {
+        font-size: 4rem;
+    }
+
 }
+
 /* Fim - FullHD / 4K */
