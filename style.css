@@ -207,6 +207,36 @@ main h2 {
     margin-bottom: 20px;
 }
 
+#pdf {
+    padding: 40px 13px;
+    background: url(./img/bannerfundo.jpg);
+}
+
+#pdf .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#pdf img {
+    display: none;
+}
+
+#pdf h2 {
+    color: var(--rosaescuro);
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+}
+
+#pdf p {
+    margin-bottom: 50px;
+    color: var(--preto);
+    font-size: 1.2rem;
+}
+
+#pdf .btn {
+    font-size: 1.3rem;
+}
+
 
 /* Fim smartphone portrait*/
 
@@ -408,10 +438,21 @@ main h2 {
         margin-right: 10px;
     }
 
-    #sobre #texto {
-        margin-left: -40px;
+    /* PDF/Cardápio */
+
+    #pdf img {
+        display: flex;
+        border-radius: 20%;
+        height: 300px;
+        width: 300px;
     }
 
+    #pdf .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 /* Fim - Notebook / PC */
@@ -432,7 +473,7 @@ main h2 {
 
     main h2 {
         font-size: 4rem;
-    }   
+    }
 
 
 }
