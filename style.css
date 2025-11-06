@@ -178,6 +178,34 @@ main h2 {
     text-shadow: 0px 5px 10px var(--branco), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Sobre */
+
+#sobre {
+    padding: 40px 13px;
+}
+
+#sobre .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#sobre iframe {
+    width: 340px;
+    height: 191px;
+}
+
+#sobre p {
+    margin-bottom: 25px;
+}
+
+#sobre p {
+    color: var(--rosa);
+}
+
+#sobre h2 {
+    color: var(--dourado);
+    margin-bottom: 20px;
+}
 
 
 /* Fim smartphone portrait*/
@@ -211,31 +239,31 @@ main h2 {
 
     /* Destaque */
 
-#destaque {
-    padding: 50px 0px;
-    background: url(./img/bannerfundo.jpg);
-    background-size: cover;
-    background-position: center;
-}
+    #destaque {
+        padding: 50px 0px;
+        background: url(./img/bannerfundo.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 
-#destaque .container {
-    flex-direction: row;
-    align-items: center;
-}
+    #destaque .container {
+        flex-direction: row;
+        align-items: center;
+    }
 
-#hero {
-    text-align: left;
-}
+    #hero {
+        text-align: left;
+    }
 
-#hero img {
-    width: 200px;
-    height: 200px;
-    margin: 50px 40px 0px -30px;
-}
+    #hero img {
+        width: 200px;
+        height: 200px;
+        margin: 50px 40px 0px -30px;
+    }
 
-.topics {
-    display: none;
-}
+    .topics {
+        display: none;
+    }
 
 }
 
@@ -267,8 +295,8 @@ main h2 {
     }
 
     #hero img {
-    margin-left: 30px;
-}
+        margin-left: 30px;
+    }
 
 }
 
@@ -364,7 +392,24 @@ main h2 {
 
     .topics {
         display: flex;
-        
+
+    }
+
+    /* Sobre */
+
+    #sobre .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sobre p {
+        margin-right: 10px;
+    }
+
+    #sobre #texto {
+        margin-left: -40px;
     }
 
 }
@@ -387,7 +432,8 @@ main h2 {
 
     main h2 {
         font-size: 4rem;
-    }
+    }   
+
 
 }
 
