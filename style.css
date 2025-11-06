@@ -131,6 +131,55 @@ main h2 {
     margin-bottom: 35px;
 }
 
+/* Destaque */
+#destaque {
+    padding: 50px 13px;
+    background: url(./img/bannerfundo.jpg);
+    background-size: cover;
+    background-position: -80px;
+}
+
+#destaque .container {
+    flex-direction: column;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#hero-text h2 {
+    margin-bottom: 15px;
+    color: var(--rosaescuro);
+    font-size: 2.7rem;
+    text-shadow: 0px 5px 10px var(--rosa), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+#hero-text p {
+    color: var(--branco);
+    text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.topics {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.topics p {
+    margin-left: 15px;
+    color: var(--rosaqueimado);
+    text-shadow: 0px 5px 10px var(--branco), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
 /* Fim smartphone portrait*/
 
 /* Smarthphone landscape */
@@ -159,7 +208,38 @@ main h2 {
     main h2 {
         font-size: 1.9rem;
     }
+
+    /* Destaque */
+
+#destaque {
+    padding: 50px 0px;
+    background: url(./img/bannerfundo.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
+#destaque .container {
+    flex-direction: row;
+    align-items: center;
+}
+
+#hero {
+    text-align: left;
+}
+
+#hero img {
+    width: 200px;
+    height: 200px;
+    margin: 50px 40px 0px -30px;
+}
+
+.topics {
+    display: none;
+}
+
+}
+
+
 
 /* Fim - Smartphone landscape */
 
@@ -185,6 +265,10 @@ main h2 {
     main h2 {
         font-size: 2.9rem;
     }
+
+    #hero img {
+    margin-left: 30px;
+}
 
 }
 
@@ -266,6 +350,23 @@ main h2 {
         font-size: 2.5rem;
         border-radius: 50px;
     }
+
+    /* Destaque */
+
+    #destaque {
+        background-attachment: fixed;
+    }
+
+    #hero img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .topics {
+        display: flex;
+        
+    }
+
 }
 
 /* Fim - Notebook / PC */
