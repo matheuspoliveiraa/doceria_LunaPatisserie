@@ -162,8 +162,7 @@ main h2 {
 }
 
 #hero-text p {
-    color: var(--branco);
-    text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+    color: var(--preto);
 }
 
 .topics {
@@ -174,7 +173,7 @@ main h2 {
 
 .topics p {
     margin-left: 15px;
-    color: var(--rosaqueimado);
+    color: var(--rosaescuro);
     text-shadow: 0px 5px 10px var(--branco), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -207,9 +206,13 @@ main h2 {
     margin-bottom: 20px;
 }
 
+/* PDF/Cardápio */
+
 #pdf {
     padding: 40px 13px;
     background: url(./img/bannerfundo.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #pdf .container {
@@ -271,7 +274,6 @@ main h2 {
 
     #destaque {
         padding: 50px 0px;
-        background: url(./img/bannerfundo.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -425,6 +427,14 @@ main h2 {
 
     }
 
+    #hero-text h2 {
+        font-size: 2.7rem;
+    }
+
+    #hero-text p {
+        font-size: 1.3rem;
+    }
+
     /* Sobre */
 
     #sobre .container {
@@ -440,6 +450,10 @@ main h2 {
 
     /* PDF/Cardápio */
 
+    #pdf {
+        background-attachment: fixed;
+    }
+
     #pdf img {
         display: flex;
         border-radius: 20%;
@@ -453,6 +467,14 @@ main h2 {
         align-items: center;
         justify-content: center;
     }
+}
+
+#pdf #text h2 {
+    font-size: 2.7rem;
+}
+
+#pdf #text p {
+    font-size: 1.3rem;
 }
 
 /* Fim - Notebook / PC */
