@@ -33,12 +33,53 @@ body {
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    background-color: var(--rosaclarinho);
+    background-color: var(--rosaescuro);
     padding: 10px 40px;
-    color: var(--rosaescuro);
+    color: var(--branco);
     border-radius: 30px;
     border: 2px solid var(--rosa);
+}
 
+/* Cartão */
+.card {
+    width: 342px;
+    height: 480px;
+    background-color: var(--rosa);
+    margin-bottom: 25px;
+    border: 2px solid var(--rosaescuro);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.card img {
+    border-radius: 30px 30px 0px 0px; /* Coordenadas (encima, encima, embaixo, embaixo */
+}
+
+.card h2 {
+    font-size: 1.7rem;
+    margin: 15px 0px;
+    color: purple;
+}
+
+.card p {
+    color: var(--branco);
+    padding: 0px 15px 40px 30px;
+}
+
+#receitas #titulo {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    color: purple;
+    text-shadow:
+  -0.8px -0.8px 0 #fff,
+   0.8px -0.8px 0 #fff,
+  -0.8px  0.8px 0 #fff,
+   0.8px  0.8px 0 #fff;
+   text-align: center;
+}
+
+#receitas .btn {
+    font-size: 1.8rem;
 }
 
 /* Fim do Layout*/
@@ -186,6 +227,7 @@ main h2 {
 
 #sobre {
     padding: 40px 13px;
+    background-color: var(--rosaclarinho);
 }
 
 #sobre .container {
@@ -244,6 +286,20 @@ main h2 {
 #pdf .btn {
     font-size: 1.3rem;
 }
+
+/* Cartões */
+
+#receitas {
+    background-color: var(--rosaclarinho);
+    padding: 50px 0px 25px 0px;
+}
+
+#receitas .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 
 /* Fim smartphone portrait*/
@@ -359,6 +415,17 @@ main h2 {
         width: 560px;
         height: 315px;
         margin-left: 20px;
+    }
+
+      /* Cartões */
+    #receitas .container {
+        flex-direction: row;
+        flex-wrap: wrap;   
+        justify-content: space-around;
+    }
+
+    .card {
+        margin-right: 25px;
     }
 }
 
@@ -500,6 +567,14 @@ main h2 {
     #pdf #text p {
         font-size: 1.3rem;
     }
+
+    /* Cartões */
+    #receitas .container {
+        flex-direction: row;
+    }
+     .card {
+        margin-right: 0px;
+    }
 }
 
 
@@ -538,6 +613,11 @@ main h2 {
         width: 560px;
         height: 315px;
         margin-left: 20px;
+    }
+
+    /* Cartões */
+     .card {
+        margin-right: 0px;
     }
 
 }
