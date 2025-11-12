@@ -1,6 +1,14 @@
 ![GitHub License](https://img.shields.io/github/license/matheuspoliveiraa/doceria_LunaPatisserie)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fmatheuspoliveiraa.github.io%2Fdoceria_LunaPatisserie%2F)
 
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="CSS válido!" />
+    </a>
+</p>
+
 # 🌙 Luna Patisserie
 
 Bem-vindo ao repositório oficial da **Luna Patisserie**, uma confeitaria artesanal que combina **sabor, arte e elegância** em cada doce.  
